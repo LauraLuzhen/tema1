@@ -5,19 +5,21 @@ import java.util.Scanner; //Importamos el Scanner
 public class Ejerccio5 {
 
 	public static void main(String[] args) {
-		Scanner lector = new Scanner(System.in); // Creamos un Scanner
-		double radio; // Declaramos variables
+		// Creamos un Scanner
+		Scanner lector = new Scanner(System.in);
+		// Declaramos variables
+		double radio;
 		double longitud;
 		double area;
-		System.out.println("Dime el radio: "); // Le pedimos al usuario un radio
-		radio = lector.nextDouble(); // La consola espera por una respuesta
-		longitud = 2 * Math.PI * radio; // Calculamos la longitud y el área
+		// Le pedimos al usuario un radio
+		System.out.println("Dime el radio: ");
+		// La consola espera por una respuesta
+		radio = lector.nextDouble();
+		// Calculamos la longitud y el área
+		longitud = 2 * Math.PI * radio;
 		area = Math.PI * (radio * radio);
-		System.out.println("La longitud es " + longitud + " y el área es " + area + " de la circunferencia."); // Imprimimos
-																												// por
-																												// pantalla
-																												// el
-																												// resultado
+		// Imprimimos por pantalla el resultado
+		System.out.println("La longitud es " + longitud + " y el área es " + area + " de la circunferencia.");
 		lector.close(); // Cerramos el Scanner
 	}
 

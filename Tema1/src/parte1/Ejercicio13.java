@@ -13,8 +13,7 @@ public class Ejercicio13 {
 		boolean lluvia;
 		boolean tarea;
 		boolean biblioteca;
-		boolean caso1;
-		boolean caso2;
+		boolean caso;
 		
 		//Le preguntamos al usuario
 		System.out.println("¿Está lloviendo? ");
@@ -29,11 +28,10 @@ public class Ejercicio13 {
 		biblioteca = reader.nextBoolean();
 		
 		//Realizamos las operaciones lógicas
-		caso1 = biblioteca && true;
-		caso2 = lluvia && tarea;
+		caso = lluvia == false && tarea == true ? true : false;
 		
 		//Imprimimos por pantalla
-		System.out.println("¿Puedes salir a la calle? " + (caso1 || caso2));
+		System.out.println("¿Puedes salir a la calle? " + (caso || biblioteca));
 		
 		//Cerramos la consola
 		reader.close();

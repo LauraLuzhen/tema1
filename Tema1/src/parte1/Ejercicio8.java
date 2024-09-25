@@ -3,6 +3,7 @@ package parte1;
 import java.util.Scanner; //Importamos el Scanner
 
 public class Ejercicio8 {
+	
 	public static void main(String[] args) {
 
 		// Creamos un Scanner

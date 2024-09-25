@@ -3,6 +3,7 @@ package parte1;
 import java.util.Scanner;
 
 public class Ejercicio11 {
+	
 	public static void main(String[] args) {
 		
 		//Creamos un Scanner
@@ -23,5 +24,8 @@ public class Ejercicio11 {
 		
 		//Imprimimos el resultado por pantalla
 		System.out.println(pesetas + " pesetas son " + euros + " euros");
+		
+		//Cerramos el Scanner
+		reader.close();
 	}
 }

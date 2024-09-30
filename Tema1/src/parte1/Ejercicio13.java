@@ -28,9 +28,6 @@ public class Ejercicio13 {
 		biblioteca = reader.nextBoolean();
 		
 		//Realizamos las operaciones lógicas
-
-		caso = biblioteca && true;
-
 		caso = lluvia == false && tarea == true ? true : false;
 
 		

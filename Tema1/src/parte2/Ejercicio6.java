@@ -10,11 +10,17 @@ public class Ejercicio6 {
 		Scanner reader = new Scanner(System.in);
 
 		// Declaración de variables
+		// Variable que guarda los milimetros
 		int milimetros;
+		// Variable que guarda los centímetros
 		int centimetros;
+		// Variable que guarda los metros
 		int metros;
+		// Variable que pasa los milímetros a centímetros
 		int paso1;
+		// Variable que pasa los metros a centímetros
 		int paso2;
+		// Variable que suma todas las medidas
 		int suma;
 
 		// Le pedimos al usurio las medidas
@@ -36,7 +42,7 @@ public class Ejercicio6 {
 
 		// Imprimimos por pantalla
 		System.out.println(suma);
-		
+
 		// Cerramos el Scanner
 		reader.close();
 	}

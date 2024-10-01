@@ -1,26 +1,29 @@
 package parte1;
 
-import java.util.Scanner; //Importamos el Scanner
+//Importamos el Scanner
+import java.util.Scanner;
 
 public class Ejercicio1 {
-	
+
 	public static void main(String[] args) {
-		
-		// Creamos un Scanner
-		Scanner lector = new Scanner(System.in);
-		
-		// Declaramos las variables
+
+		// Creamos el Scanner
+		Scanner reader = new Scanner(System.in);
+
+		// Declaración de variables
+		// Variables que va a contener el número entero del usuario
 		int num;
-		
-		// Le pedimos al usuario por pantalla lo que queremos
+
+		// Pedimos un número al usuario
 		System.out.println("Dime un número entero: ");
-		
-		// La consola se queda esperando una respuesta
-		num = lector.nextInt();
-		
-		// Imprimimos por pantalla el resultado
+
+		// La consola espera por una respuesta del usuario
+		num = reader.nextInt();
+
+		// Imprimimos por pantalla el número que ha introducido el usuario
 		System.out.println("Tu número es: " + num);
-		
-		lector.close(); // Cerramos el Scanner
+
+		// Cerramos el Scanner
+		reader.close();
 	}
 }

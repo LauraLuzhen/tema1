@@ -10,12 +10,19 @@ public class Ejercicio7 {
 		Scanner reader = new Scanner (System.in);
 		
 		//Declaración de variables
+		//Variable que es el número de entradas infantiles
 		int entradasInfantiles;
+		//Varibale que es el número de entradas para adultos
 		int entradasAdultos;
+		// Variable que es el precio de la entrada infantil
 		final double INFANTILES = 15.50;
+		//Variable que es el precio de la entrada para adultos
 		final double ADULTOS = 20;
+		//Variable que aplica el descuento
 		final double DESCUENTO = 0.05;
+		//Variable que suma todos los precios
 		double importe;
+		//Variable que aplica el descuento si es mayor que 100
 		double aplicaDescuento;
 		
 		//Le pedimos al usuario el núemero de entradas
